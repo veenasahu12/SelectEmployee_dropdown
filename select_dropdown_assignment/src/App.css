@@ -37,3 +37,11 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (min-width:0px) and (max-width:800px) {
+  .App{
+      grid-template-columns: 1fr ;
+      grid-template-rows: 1fr;
+  }
+}
+
